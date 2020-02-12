@@ -1,0 +1,107 @@
+.fileOuterBox{
+	box-sizing: border-box;
+	border:solid #5B6DCD 10px;
+  padding: 10px;
+  display:grid;
+  background-image:url('security.jpg') ;
+  grid-gap:20%;
+  font-family: 'Courier';
+  font-color:'#000000';
+	
+
+}
+.fileCardProperty{
+  border-radius:  10px;
+  background: #e7e7e7;
+  opacity: 0.7;
+  font-family: 'Courier';
+  font-color:#000000;
+	box-sizing: border-box;
+	display:inline-block;
+  width:200px;
+  height: 200px;
+  margin:5px 0 5px 0  ;
+  word-wrap: break-word;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto;
+  margin:10% auto; /* Enable scroll if needed */
+  padding: 10px;
+  background-color: rgb(0,255,0); /* Fallback color */
+   /* Black w/ opacity */
+}
+.modal-hide{
+  display:none;
+}
+.modal-show{
+  display: block;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgb(255,0,0);
+  border: 5px;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  background-color: #2062d2;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-color:#000000;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2);
+}
+ul {
+    position: relative;
+    display: block;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    background-image: url('security.jpg');
+}
+li {
+    display: inline-block;
+    padding: 5px;
+    opacity: .9;   
+    width:auto;
+}
+
+h1 {
+  font-color:#ffffff;
+  font-style:'Courier';
+}
